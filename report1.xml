@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.058"
+               timestamp="2022-07-19T11:41:27.044370" hostname="PQA-0675LT">
+        <testcase classname="test_cases.test_sum" name="test_1" time="0.001"/>
+        <testcase classname="test_cases.test_sum" name="test_2" time="0.000">
+            <failure
+                    message="AssertionError: Selenium not in selenium with Python&#10;assert 'Selenium' in 'selenium with Python'">
+                def test_2():
+                name = "Selenium"
+                title = "selenium with Python"
+                &gt; assert name in title, "{} not in {}".format(name, title)
+                E AssertionError: Selenium not in selenium with Python
+                E assert 'Selenium' in 'selenium with Python'
+
+                test_cases\test_sum.py:9: AssertionError
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
