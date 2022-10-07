@@ -1,0 +1,4 @@
+Start the browser
+
+Test 1 executed
+Close the browser

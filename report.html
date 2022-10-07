@@ -243,12 +243,12 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 07-Oct-2022 at 10:32:36 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 07-Oct-2022 at 14:51:21 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
         <td>JAVA_HOME</td>
-        <td>C:\Program Files\Java\jdk-17.0.4.1</td></tr>
+        <td>C:\Program Files\Java\jdk-18.0.1.1</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "1.0.0", "py": "1.11.0", "pytest": "7.1.2"}</td></tr>
@@ -257,13 +257,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Windows-10-10.0.19044-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"forked": "1.4.0", "html": "3.1.1", "metadata": "2.0.1", "xdist": "2.5.0"}</td></tr>
+        <td>{"allure-pytest": "2.11.0", "forked": "1.4.0", "html": "3.1.1", "metadata": "2.0.1", "xdist": "2.5.0"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.10.5</td></tr></table>
     <h2>Summary</h2>
-    <p>7 tests ran in 0.14 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">2 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">1 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 11.22 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -274,84 +274,65 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="xfailed results-table-row">
-        <tr>
-          <td class="col-result">XFailed</td>
-          <td class="col-name">test_cases/test_markers.py::test_5</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="skipped results-table-row">
-        <tr>
-          <td class="col-result">Skipped</td>
-          <td class="col-name">test_cases/test_markers.py::test_3</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="skipped results-table-row">
-        <tr>
-          <td class="col-result">Skipped</td>
-          <td class="col-name">test_cases/test_markers.py::test_4</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_1</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-name">test_cases/test_fixtures.py::test_01_login</td>
+          <td class="col-duration">2.40</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Start the browser
+
+<br/> -----------------------------Captured stderr setup------------------------------ <br/>[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 105.0.5195
+[WDM] - Get LATEST chromedriver version for 105.0.5195 google-chrome
+[WDM] - Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache
+<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     WDM:logger.py:16 ====== WebDriver manager ======
+INFO     WDM:logger.py:16 Current google-chrome version is 105.0.5195
+INFO     WDM:logger.py:16 Get LATEST chromedriver version for 105.0.5195 google-chrome
+INFO     WDM:logger.py:16 Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache<br/> ------------------------------Captured stdout call------------------------------ <br/>Test 1 executed
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close the browser
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_2</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-name">test_cases/test_fixtures.py::test_02_login_logout</td>
+          <td class="col-duration">4.62</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Start the browser
+
+<br/> -----------------------------Captured stderr setup------------------------------ <br/>[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 105.0.5195
+[WDM] - Get LATEST chromedriver version for 105.0.5195 google-chrome
+[WDM] - Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache
+<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     WDM:logger.py:16 ====== WebDriver manager ======
+INFO     WDM:logger.py:16 Current google-chrome version is 105.0.5195
+INFO     WDM:logger.py:16 Get LATEST chromedriver version for 105.0.5195 google-chrome
+INFO     WDM:logger.py:16 Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache<br/> ------------------------------Captured stdout call------------------------------ <br/>Test 1 executed
+Test 2 executed
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close the browser
+<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_6[selenium-webdriver]</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-name">test_cases/test_fixtures.py::test_03_empty_credential</td>
+          <td class="col-duration">3.94</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_6[python-pytest]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_6[java-testng]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_cases/test_markers.py::test_6[API-web automation]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Start the browser
+
+<br/> -----------------------------Captured stderr setup------------------------------ <br/>[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 105.0.5195
+[WDM] - Get LATEST chromedriver version for 105.0.5195 google-chrome
+[WDM] - Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache
+<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     WDM:logger.py:16 ====== WebDriver manager ======
+INFO     WDM:logger.py:16 Current google-chrome version is 105.0.5195
+INFO     WDM:logger.py:16 Get LATEST chromedriver version for 105.0.5195 google-chrome
+INFO     WDM:logger.py:16 Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache<br/> ------------------------------Captured stdout call------------------------------ <br/>Epic sadface: Username is required
+Test 3 executed
+<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Close the browser
+<br/></div></td></tr></tbody></table></body></html>
