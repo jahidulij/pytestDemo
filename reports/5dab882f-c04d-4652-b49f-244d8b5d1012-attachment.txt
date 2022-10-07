@@ -1,0 +1,5 @@
+Start the browser
+
+Epic sadface: Username is required
+Test 3 executed
+Close the browser

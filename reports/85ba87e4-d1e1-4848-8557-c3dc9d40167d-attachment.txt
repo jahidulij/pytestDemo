@@ -1,0 +1,4 @@
+[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 105.0.5195
+[WDM] - Get LATEST chromedriver version for 105.0.5195 google-chrome
+[WDM] - Driver [C:\Users\JahidulIslam\.wdm\drivers\chromedriver\win32\105.0.5195.52\chromedriver.exe] found in cache

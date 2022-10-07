@@ -1,5 +1,7 @@
 import pytest
+import allure
 
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
@@ -19,6 +21,7 @@ def setup():
     print("Close the browser")
     driver.close()
 
+@allure.severity(allure.severity_level.BLOCKER)
 @pytest.mark.parametrize("username, password",
                          [
                              ("standard_user", "secret_sauce"),
@@ -38,4 +41,10 @@ def test_01_login(setup, username, password):
     wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='login_button_container']/div/form/div[3]")))
     message = driver.find_element(By.XPATH, "//*[@id='login_button_container']/div/form/div[3]")
     print("ERROR: " + message.text)
+    actual_title = driver.title
+    if actual_title == "Swag Labs":
+        assert True
+    else:
+        allure.attach(driver.get_screenshot_as_png(), name="test_02_login_logout", attachment_type=AttachmentType.PNG)
+        assert False
     driver.get("https://www.saucedemo.com/")

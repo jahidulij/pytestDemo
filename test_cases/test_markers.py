@@ -1,5 +1,4 @@
 import sys
-
 import pytest
 
 
@@ -43,3 +42,4 @@ def test_5():
 def test_6(username, password):
     print(username)
     print(password)
+
